@@ -9,3 +9,4 @@ downloaders:
     - "git+ssh"
     - "git+https"
     - "git+http"
+    - "git+httxs"
