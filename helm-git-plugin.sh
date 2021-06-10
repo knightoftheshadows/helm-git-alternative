@@ -5,7 +5,7 @@
 set -e
 
 readonly bin_name="helm-git"
-readonly allowed_protocols="https http file ssh"
+readonly allowed_protocols="https http file ssh httxs"
 readonly url_prefix="git+"
 
 readonly error_invalid_prefix="Git url should start with '$url_prefix'. Please check helm-git usage."
